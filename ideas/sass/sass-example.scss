@@ -1,0 +1,107 @@
+// ==================================================================
+// What Is This File?
+// ==================================================================
+//
+// DESCRIPTION:
+//  + This file is an example of the sort of styleguide I'm trying to
+//    create. There needs to be a constant, consistent, READABLE
+//    set of rules for constructing SCSS documents.
+//
+//  + This file will show all of the parts that need to be decided
+//    upon within a document. Options for styling the parts described
+//    herein can be found in other documents.
+//    
+//    See:
+//      - sass-block-comments.scss
+//      - sass-category-comments.scss
+//      - sass-section-comments.scss
+//  
+//  + This section is a "Block comment."
+
+
+
+// ------------------------------------------------------------------
+//                    Here is a "Category comment."
+// ---------------------------------------------------------------->>>
+
+
+// Here is a "Section comment."
+// -----------------------------
+.section-selector {
+  position: relative;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section-selector--part {
+  float: right;
+}
+
+.section-selector--part__variant {
+  text-transform: uppercase;
+}
+
+// Here is a "Section comment."
+// -----------------------------
+.section-selector {
+  position: relative;                           // This is an inline comment.
+  height: auto;                                 // Inline comments should only describe one line.
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section-selector--part {
+  // - Here is maybe what an inline block
+  //   comment might look like. I think
+  //   this could be especially useful 
+  //   when working with a team. 
+  // - Keep them in a selector.
+  // - Describe your stuff!
+  // - Sign comments like this!
+  //                          -- @carwin
+  float: right;
+}
+
+.section-selector--part__variant {
+  text-transform: uppercase;
+}
+
+// ------------------------------------------------------------------
+//                    Here is a "Category comment."
+// ---------------------------------------------------------------->>>
+
+
+// Here is a "Section comment."
+// -----------------------------
+.section-selector {
+  position: relative;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section-selector--part {
+  float: right;
+}
+
+.section-selector--part__variant {
+  text-transform: uppercase;
+}
+
+// Here is another "Section comment."
+// ----------------------------------
+.section-selector {
+  position: relative;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section-selector--part {
+  float: right;
+}
+
+.section-selector--part__variant {
+  text-transform: uppercase;
+}
