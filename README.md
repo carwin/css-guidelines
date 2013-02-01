@@ -1,5 +1,5 @@
-# A Guide To Writing SASS Documents
-## _by Carwin Young_
+# A Guide To Writing CSS Documents
+#### _by Carwin Young_
 
 This is a living guideline I use to enforce consistency in my SASS projects.
 
